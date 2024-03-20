@@ -1,13 +1,27 @@
 .box {
   border: 1px solid black;
   width: 500px;
+  text-align: center;
 }
 
 .item-img {
   width: 400px;
+  height: 400px;
 }
 
 .main {
   display: flex;
   justify-content: center;
+}
+
+.win {
+  border: 10px solid green;
+}
+
+.lose {
+  border: 10px solid red;
+}
+
+.tie {
+  border: 10px solid black;
 }
